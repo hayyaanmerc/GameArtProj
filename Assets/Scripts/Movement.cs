@@ -10,11 +10,18 @@ public class Movement : MonoBehaviour {
 	private Rigidbody rb;
 	private SpriteRenderer sprite;
 	private Transform spriteTransform;
-
+	private bool canJump = true;
+	void OnCollisionEnter(Collision collisionInfo)
+	{
+		print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
+		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
+		print("Their relative velocity is " + collisionInfo.relativeVelocity);
+	}
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
 		col2D = GetComponent<Collider>(); 
+		
 		//float speed = 10f;
 	}
 
@@ -29,18 +36,20 @@ public class Movement : MonoBehaviour {
 			
 			transform.Translate (Vector3.left * Time.deltaTime * speed);
 		}
-		
-		if ((Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) {
-			
-			rb.AddForce (new Vector3 (0, 1, 0) * jumpForce);
-			//transform.Translate (Vector3.up * Time.deltaTime * jumpForce);
+		//jump code
+		if ((Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow)) && canJump == true) {
+			if(canJump == true){
+				rb.AddForce (new Vector3 (0, 1, 0) * jumpForce);
+				//canJump = false; 
+			}
+			/*if(OnCollisionEnter(col2D)){
+				canJump = true;
+			}*/
+
 		}
 		
 	
 
-	}
-	void handleJump(){
-		
 	}
 
 }
