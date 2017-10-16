@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Movement.cs">
     <Files>
-      <File FileName="Assets\Movement.cs" Line="39" Column="5" />
+      <File FileName="Assets\Scripts\Respawn.cs" Line="22" Column="48" />
+      <File FileName="Assets\Scripts\Movement.cs" Line="4" Column="40" />
+      <File FileName="Assets\Scripts\HealthHandler.cs" Line="24" Column="33" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
