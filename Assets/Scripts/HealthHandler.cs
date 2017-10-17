@@ -4,44 +4,43 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthHandler : MonoBehaviour {
-
-    //public Movement playerInfo;
+	
+	public Movement playerInfo;
 	public Slider healthSlider;
-    //public Sprite healthSlider; 
-    public float maxHP;
+	public float maxHP;
 	public float curHP;
 	// Use this for initialization
 	void Start () {
-		//healthSlider = GetComponent<Slider> ();
+		healthSlider.maxValue = playerInfo.GetMaxValue();  //get the max hp slider value
+		maxHP = playerInfo.maxHP; //set the max hp value for slider.
 
-		//Here's what I did r
-	/*here*/	Movement playerInfo = GetComponent<Movement>(); //once you seperate movement class and player info class change Movement to Playerinfo
-    /*and*/    healthSlider.maxValue = playerInfo.maxHP;
-	/*here*/	maxHP = playerInfo.maxHP;
-		//healthSlider.pivot = new Vector2(0,0);
-		curHP = playerInfo.maxHP;
+		curHP = playerInfo.maxHP; //set the current hp to the max possible HP at the start
+		healthSlider.value = curHP; //set the sliders value to the current hp
+		healthSlider.minValue = 0; //min value = 0...
+	}
+	// Update is called once per frame
+	void Update () {
+		/*if (Input.GetKeyDown (KeyCode.Z)) {
 
-
-		//healthSlider.minValue = 0;
-		//healthSlider.anchorMax = maxHP;
-		//healthSlider.value = curHP;
-
-
+			curHP = curHP - 1;
+			if (curHP < 0) {
+				respawn ();
+			}
+			healthSlider.value = curHP;
+		}*/
 
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        
-		if (Input.GetKeyDown (KeyCode.Z)) {
-			
-			curHP = curHP - 1;
-			if (curHP < 0)
-				curHP = 0;
-			//transform.localScale.x = curHP;
-			//healthSlider.value = curHP;
+	public void takeDamage(){
+		curHP = curHP - 1; //decrement health upon taking damage 
+		if (curHP <= 0) {
+			curHP = 0;
+			respawn (); //respawn when you hit 0
 		}
-
+		healthSlider.value = curHP;//reset 
+	}
+	public void respawn(){
+		playerInfo.transform.position = new Vector3 (0, 2, 0);
+		curHP = maxHP;
 	}
 }
