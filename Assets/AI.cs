@@ -6,14 +6,17 @@ public class AI : MonoBehaviour {
 
 	private Transform enemyT;
 	private Rigidbody enemyR;
-
+	private AI enemy;
 	private bool dirRight;
 	public int speed = 2;
 
 	void OnCollisionEnter(Collision collisionInfo)
 	{
-		if (collisionInfo.collider.name.Equals ("Cube")) {
-			//dirRight = false;
+		if (collisionInfo.collider.name.Equals ("Player")) {
+			if (dirRight == true)
+				dirRight = false;
+			else if (dirRight == false)
+				dirRight = true;
 		}
 		/*print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
 		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
@@ -22,18 +25,24 @@ public class AI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		dirRight = true;
+		enemy = GetComponent<AI> ();
 		enemyT = GetComponent<Transform> ();
 		enemyR = GetComponent<Rigidbody> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKey (KeyCode.P)) {
+			print ("p");
+			
+		}
 		if (dirRight == true) {
 			//print ("GOING RIGHT?");
-			transform.Translate (Vector2.right * Time.deltaTime * speed);
+			enemyT.transform.Translate (Vector2.right * Time.deltaTime * speed);
+			//enemyR.AddForce (Vector2.right * speed);
 		} else {
-			transform.Translate (-Vector2.right * Time.deltaTime * speed);
+			enemyT.transform.Translate (-Vector2.right * Time.deltaTime * speed);
+			//enemyR.AddForce (-Vector2.right * speed);
 		}
 		if (transform.position.x >= 20.0f) {
 			dirRight = false;

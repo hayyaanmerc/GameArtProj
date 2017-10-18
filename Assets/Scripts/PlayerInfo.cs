@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour {
 
-	private int health = 10;
+	public int maxHP = 10;
+	public int speed = 10; // subject to change, not official.
 	private Collision col2D;
 	void OnCollisionEnter(Collision colInfo){
-		if (colInfo.collider.ToString () == "Enemy") {
-			print ("hit enemy");
-		}
 	}
 	// Use this for initialization
 	void Start () {
@@ -18,7 +16,7 @@ public class PlayerInfo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//OnCollisionEnter (col2D);
+		
 		
 	}
 }
