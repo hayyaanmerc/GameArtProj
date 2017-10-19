@@ -5,36 +5,32 @@ public class Movement : MonoBehaviour {
 
 	public float speed = 10f;
 	public float jumpForce = 300f;
-	public float maxHP = 10;
-	public float curHP;
+	//public float maxHP = 10;
+	//public float curHP;
 
 	private Collision col2D; 
 	private Rigidbody rb;
 	private SpriteRenderer sprite;
 	private Transform spriteTransform;
-	private Respawn spawner;
-	public HealthHandler hp;
-	
+    //private Respawn spawner;
+    private PlayerInfo player ;
 	private bool canJump = true;
 	void OnCollisionEnter(Collision collisionInfo)
 	{
 		canJump = true;
 		if (collisionInfo.collider.name.Equals("Enemy")) {
-			hp.takeDamage ();
+            print("he got hit");
+			player.health.takeDamage();
 		}
 		/*print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
 		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
 		print("Their relative velocity is " + collisionInfo.relativeVelocity);*/
 	}
-	public float GetMaxValue(){
-		return maxHP;
-	}
+	
 	void Start ()
 	{
-		spawner = GetComponent<Respawn> ();
 		rb = GetComponent<Rigidbody>();
 		col2D = GetComponent<Collision>(); 
-		hp = GetComponent<HealthHandler>();
 		
 		//float speed = 10f;
 	}
