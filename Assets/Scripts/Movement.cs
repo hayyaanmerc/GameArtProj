@@ -25,6 +25,9 @@ public class Movement : MonoBehaviour {
 			hp.takeDamage ();
 			//rb.AddForce (new Vector3 (0, 180, 0));
 		}
+		if(collisionInfo.collider.name.Equals("Projectile")){
+			hp.takeDamage();
+		}
 		/*print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
 		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
 		print("Their relative velocity is " + collisionInfo.relativeVelocity);*/
@@ -51,7 +54,7 @@ public class Movement : MonoBehaviour {
 		if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
 			if (facingRight == true) {
 				print ("moving right");
-				transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+				//sprite.flipX= true;
 				facingRight = false;
 			}
 			transform.Translate (Vector3.left * Time.deltaTime * speed);
@@ -63,8 +66,13 @@ public class Movement : MonoBehaviour {
 				rb.AddForce (new Vector3 (0, 1, 0) * jumpForce);				
 			}
 		}
-		if (Input.GetKey (KeyCode.E)) {
-			transform.Translate(new Vector3(2, 0, 0));
+		if (Input.GetKeyDown (KeyCode.E)) {
+			//rb.AddRelativeForce (Vector3.right * 1000);
+			transform.Translate(Vector3.right*speed*10);
+
+
+
+
 		}
 	}
 }

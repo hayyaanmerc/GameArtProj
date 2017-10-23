@@ -8,8 +8,12 @@ public class AI : MonoBehaviour {
 	private Rigidbody enemyR;
 	private AI enemy;
 	private bool dirRight;
-	public int speed = 2;
 
+	public EnemyHealth health;
+	public GameObject obj;
+	public Projectile pro;
+	public int speed = 2;
+	public int hp = 3;
 	void OnCollisionEnter(Collision collisionInfo)
 	{
 		if (collisionInfo.collider.name.Equals ("Player")) {
@@ -17,6 +21,10 @@ public class AI : MonoBehaviour {
 				dirRight = false;
 			else if (dirRight == false)
 				dirRight = true;
+		}
+		if(collisionInfo.collider.name.Equals("Projectile(Clone)")){
+			health.takeDamage ();
+			print (hp);
 		}
 		/*print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
 		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
@@ -50,5 +58,9 @@ public class AI : MonoBehaviour {
 		if (transform.position.x <= 10.0f) {
 			dirRight = true;
 		}
+		if (hp <= 0) {
+			Destroy (obj.gameObject);
+		}
+	
 	}
 }

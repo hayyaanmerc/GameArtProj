@@ -9,8 +9,10 @@ public class HealthHandler : MonoBehaviour {
 	public Slider healthSlider;
 	public float maxHP;
 	public float curHP;
+	public float regeneration = 1;
 	// Use this for initialization
 	void Start () {
+		
 		healthSlider.maxValue = playerInfo.GetMaxValue();  //get the max hp slider value
 		maxHP = playerInfo.maxHP; //set the max hp value for slider.
 
@@ -37,10 +39,18 @@ public class HealthHandler : MonoBehaviour {
 			curHP = 0;
 			respawn (); //respawn when you hit 0
 		}
+		//regenerate ();
+
+
 		healthSlider.value = curHP;//reset 
 	}
 	public void respawn(){
 		playerInfo.transform.position = new Vector3 (0, 2, 0);
 		curHP = maxHP;
+	}
+	public void regenerate(){
+		if (curHP < maxHP) {
+			curHP += 1;
+		}
 	}
 }
