@@ -41,6 +41,15 @@ public class AI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKey (KeyCode.R))
+        {
+
+            if (Inrange())
+            {
+                print("range is working");
+                health.takeDamage();
+            }
+         }
 		if (Input.GetKey (KeyCode.P)) {
 			print ("p");
 			
@@ -64,4 +73,13 @@ public class AI : MonoBehaviour {
 		}
 	
 	}
+    bool Inrange()
+    {
+        Vector3 playerposition = player.transform.position;
+        Vector3 Enenmyposition = enemy.transform.position;
+        Vector3 total = playerposition - Enenmyposition;
+        if (total.x < .5f && total.x > -.5f)
+            return true;
+        else return false;
+    }
 }
