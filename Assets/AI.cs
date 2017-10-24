@@ -9,6 +9,7 @@ public class AI : MonoBehaviour {
 	private AI enemy;
 	private bool dirRight;
 
+	public Movement player;
 	public EnemyHealth health;
 	public GameObject obj;
 	public Projectile pro;
