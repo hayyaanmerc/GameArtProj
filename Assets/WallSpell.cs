@@ -6,6 +6,7 @@ public class WallSpell : MonoBehaviour {
 	Ray ray;
 	RaycastHit hit;
 	public GameObject prefab;
+	public int counter = 0;
 	// Use this for initialization
 	void Start () {
 		
@@ -24,7 +25,13 @@ public class WallSpell : MonoBehaviour {
 
 			if(Input.GetKeyDown(KeyCode.Mouse0))
 			{
-				GameObject obj=Instantiate(prefab,new Vector3(hit.point.x,hit.point.y + 1, 0), Quaternion.identity) as GameObject;
+				if (counter > 1) {
+					Destroy (GameObject.Find(gameObject.name + "(Clone)"));
+					counter = 0;
+				GameObject obj=Instantiate(prefab,new Vector3(hit.point.x,hit.point.y + 0.5f, 0), Quaternion.identity) as GameObject;
+				counter++;
+
+				}
 				
 
 			}

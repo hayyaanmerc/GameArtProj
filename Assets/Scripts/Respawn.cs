@@ -6,7 +6,8 @@ using UnityEngine;
 public class Respawn : MonoBehaviour {
 
 		// Use this for initialization
-		private Transform Player;
+	private Transform Player;
+	public HealthHandler hp;
 		void Start () {
 			
 		}
@@ -19,7 +20,8 @@ public class Respawn : MonoBehaviour {
 		}
 		void respawn(){
 			
-				transform.position = new Vector3 (0, 2, 0);
+		transform.position = new Vector3 (0, 2, 0);
+		hp.respawn ();
 
 		}
 	}

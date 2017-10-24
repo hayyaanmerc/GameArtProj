@@ -47,10 +47,15 @@ public class HealthHandler : MonoBehaviour {
 	public void respawn(){
 		playerInfo.transform.position = new Vector3 (0, 2, 0);
 		curHP = maxHP;
+		healthSlider.value = curHP;
 	}
 	public void regenerate(){
 		if (curHP < maxHP) {
 			curHP += 1;
 		}
+	}
+	public void heal(){
+		curHP += 1;
+		healthSlider.value = curHP;
 	}
 }

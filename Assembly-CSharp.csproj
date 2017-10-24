@@ -55,10 +55,14 @@
      <Compile Include="Assets\Projectile.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\HealthHandler.cs" />
+     <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\ProjectileLauncher.cs" />
      <Compile Include="Assets\Scripts\Respawn.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
      <Compile Include="Assets\WallSpell.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
