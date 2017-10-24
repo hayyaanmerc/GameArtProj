@@ -73,12 +73,12 @@ public class AI : MonoBehaviour {
 		}
 	
 	}
-    bool Inrange()
+    public bool Inrange()
     {
         Vector3 playerposition = player.transform.position;
         Vector3 Enenmyposition = enemy.transform.position;
         Vector3 total = playerposition - Enenmyposition;
-        if (total.x < .5f && total.x > -.5f)
+        if (total.x < 5f && total.x > -5f)
             return true;
         else return false;
     }
