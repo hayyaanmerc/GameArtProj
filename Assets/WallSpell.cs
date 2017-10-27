@@ -5,13 +5,13 @@ using UnityEngine;
 public class WallSpell : MonoBehaviour {
 	
 	public GameObject prefab;
-	public WallInfo info;
+	//public WallInfo info;
 	//public Camera camera;
 	// Use this for initialization
 	void Start () {
 		
 		Destroy (prefab.gameObject, 2);
-		info.counter--;
+		//prefab.SetActive = false;
 
 	}
 

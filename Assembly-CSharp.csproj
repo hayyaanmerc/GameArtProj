@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\ProjectileLauncher.cs" />
      <Compile Include="Assets\Scripts\Respawn.cs" />
+     <Compile Include="Assets\Scripts\Stun.cs" />
      <Compile Include="Assets\Scripts\WallInfo.cs" />
      <Compile Include="Assets\Scripts\weapon.cs" />
      <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />

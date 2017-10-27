@@ -68,10 +68,10 @@ public class Movement : MonoBehaviour {
 			}
 		}
 		if (Input.GetKeyDown (KeyCode.E)) {
-			Dash ();
+			//Dash ();
 			//rb.velocity = new Vector2 (rb.velocity.x * 30, rb.velocity.y);
 			//transform.position += Vector3.Lerp (new Vector3 (transform.position.x, transform.position.y, 0), new Vector3 (transform.position.x + 3, transform.position.y, 0),3.0f);
-			//rb.AddRelativeForce (Vector3.right * 1000);
+			rb.AddRelativeForce (Vector3.right * 1000);
 			//transform.Translate(Vector3.right*speed*10);
 
 

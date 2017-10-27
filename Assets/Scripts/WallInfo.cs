@@ -9,6 +9,10 @@ public class WallInfo : MonoBehaviour {
 	public GameObject prefab;
 	public int counter = 0;
 	// Use this for initialization
+	void OnDestroy(){
+		counter--;
+		print ("destroying");
+	}
 	void Start () {
 		
 	}
@@ -17,24 +21,14 @@ public class WallInfo : MonoBehaviour {
 	void Update () {
 		ray=Camera.main.ScreenPointToRay(Input.mousePosition);
 
-		if(Physics.Raycast(ray,out hit))
-		{
-			if(Input.GetKeyDown(KeyCode.Mouse0))
-			{
+		if(Physics.Raycast(ray,out hit)){
+			if(Input.GetKeyDown(KeyCode.Mouse0)){
 				print ("clicked");
-				if (counter < 1) {
-					//Destroy (GameObject.Find(gameObject.name + "(Clone)"));
-					//counter = 0;
+				//if (counter < 1) {
 					GameObject obj=Instantiate(prefab,new Vector3(hit.point.x,hit.point.y + 0.5f, 0), Quaternion.identity) as GameObject;
-					counter++;
-
-				}
+					//counter++;
+				//}
 			}
 		}
-		if (prefab.gameObject == null) {
-			print ("shits gone");
-			counter = 0;
-		}
-
 	}
 }

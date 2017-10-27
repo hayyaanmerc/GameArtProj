@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Projectile : MonoBehaviour {
 	public int damage = 1;
-	public float projectileSpeed = 0.001f;
+	public float projectileSpeed = 10.0f;
 
 	// Use this for initialization
 	void OnCollisionEnter(){
@@ -16,6 +16,6 @@ public class Projectile : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (projectileSpeed, 0, 0);
+		transform.Translate (0.5f, 0, 0);
 	}
 }
