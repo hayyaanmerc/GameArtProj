@@ -52,10 +52,30 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AI.cs" />
+     <Compile Include="Assets\cam_move.cs" />
+     <Compile Include="Assets\credits.cs" />
+     <Compile Include="Assets\current_skill.cs" />
+     <Compile Include="Assets\Main_Menu.cs" />
+     <Compile Include="Assets\Projectile.cs" />
+     <Compile Include="Assets\quit.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\HealthHandler.cs" />
+     <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\ProjectileLauncher.cs" />
      <Compile Include="Assets\Scripts\Respawn.cs" />
+     <Compile Include="Assets\Scripts\Stun.cs" />
+     <Compile Include="Assets\Scripts\WallInfo.cs" />
+     <Compile Include="Assets\Scripts\weapon.cs" />
+     <Compile Include="Assets\shop.cs" />
+     <Compile Include="Assets\skill_scene.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
+     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
+     <Compile Include="Assets\start_button.cs" />
+     <Compile Include="Assets\type.cs" />
+     <Compile Include="Assets\WallSpell.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -82,9 +102,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Users/User/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/User/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
