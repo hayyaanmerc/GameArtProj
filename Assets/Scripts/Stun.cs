@@ -12,7 +12,7 @@ public class Stun : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //enemy = enemyspeed.GetComponent<AI>();
+        enemy = GetComponent<AI>();
         stunTime = 1.5f;
     }
     private IEnumerator WaitforNext() //waits for the next stun
@@ -25,21 +25,32 @@ public class Stun : MonoBehaviour
         yield return new WaitForSeconds(stunTime); //waits for the amount of seconds of stun
         enemy.resetSpeed();
         enemyDmg.resetDamage();
+        isStun = false;
         // Debug.Log("WaitForNextStun Done");
         StartCoroutine(WaitforNext());
+    }
+    public bool checkStun()
+    {
+        if (enemy.Inrange(8))
+            isStun = true;
+            return isStun;
+    }
+    public void startStun()
+    {
+        if (checkStun())
+        {
+            enemy.SetSpeed(0);  //sets the enemies speed to 0
+            enemyDmg.multiplyDamage(2);
+            StartCoroutine(WaitForStun()); // Starts the wait time for stun
+        }
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2)) //changed the stun button to 2 instead of shift;
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            if (enemy.Inrange(8)) //gives a range for the stun
-            {
-                enemy.SetSpeed(0);  //sets the enemies speed to 0
-                enemyDmg.multiplyDamage(2);
-                StartCoroutine(WaitForStun()); // Starts the wait time for stun
-            }
-
+            startStun();
         }
+
     }
 }

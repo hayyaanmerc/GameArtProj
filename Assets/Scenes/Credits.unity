@@ -202,7 +202,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 44499698}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
+=======
   m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &84598212
@@ -384,7 +392,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491740734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LocalPosition: {x: 322, y: 155.5, z: 10}
+=======
   m_LocalPosition: {x: 295, y: 154.5, z: 10}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  m_LocalPosition: {x: 295, y: 154.5, z: 10}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 84598213}
@@ -527,6 +543,13 @@ GameObject:
   - component: {fileID: 1074470768}
   - component: {fileID: 1074470767}
   - component: {fileID: 1074470766}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - component: {fileID: 1074470769}
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -638,3 +661,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1074470764}
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &1074470769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1074470764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6

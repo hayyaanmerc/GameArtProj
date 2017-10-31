@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/tutorial_scene.unity
+=======
+- path: Assets/Scenes/Shop.unity
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
   isLoaded: 1
   isActive: 1
