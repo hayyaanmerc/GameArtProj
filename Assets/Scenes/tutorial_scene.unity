@@ -302,11 +302,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: 0
-  playerPosition: {fileID: 100418839}
-  health: {fileID: 347839578}
-  obj: {fileID: 56934462}
-  pro: {fileID: 114536084246292814, guid: 3631b7e9134b88249a5030034bf470ef, type: 2}
-  player: {fileID: 100418842}
+  playerPosition: {fileID: 0}
+  health: {fileID: 0}
+  obj: {fileID: 0}
+  pro: {fileID: 0}
+  player: {fileID: 0}
   newSpeed: 2
   hp: 3
 --- !u!1 &68605571
@@ -455,8 +455,8 @@ MonoBehaviour:
   maxHP: 10
   curHP: 0
   facingRight: 0
-  dashDist: 0.8
-  hp: {fileID: 1625145461}
+  dashDist: 10
+  hp: {fileID: 0}
 --- !u!54 &100418840
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f8d6b8b6d1fb745aaa6f602c4c3b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: {fileID: 1625145461}
+  hp: {fileID: 0}
 --- !u!114 &100418842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f16c7b9e47100e4089363185b805299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1426540130895278, guid: 3631b7e9134b88249a5030034bf470ef, type: 2}
+  projectile: {fileID: 0}
 --- !u!114 &100418844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4617141b1f65db49aaf671cb3cac7e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1046769602882164, guid: 5fb64d1136e51874f866e8cf293099ff, type: 2}
+  prefab: {fileID: 0}
 --- !u!114 &100418845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930d222bada2a1b4684544665afa0849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1046769602882164, guid: 5fb64d1136e51874f866e8cf293099ff, type: 2}
+  prefab: {fileID: 0}
   counter: 0
 --- !u!114 &100418846
 MonoBehaviour:
@@ -543,8 +543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1066ae550cc75d438a31d9419b1110f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 56934468}
-  enemyDmg: {fileID: 347839578}
+  enemy: {fileID: 0}
+  enemyDmg: {fileID: 0}
 --- !u!1 &157572675
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,11 +652,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: 0
-  playerPosition: {fileID: 100418839}
-  health: {fileID: 1834689817}
-  obj: {fileID: 277411803}
-  pro: {fileID: 114536084246292814, guid: 3631b7e9134b88249a5030034bf470ef, type: 2}
-  player: {fileID: 100418842}
+  playerPosition: {fileID: 0}
+  health: {fileID: 0}
+  obj: {fileID: 0}
+  pro: {fileID: 0}
+  player: {fileID: 0}
   newSpeed: 2
   hp: 3
 --- !u!54 &277411805
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.007352941, g: 0.9705882, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1088,8 +1088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1245a4a491c504abcf59ac98df3c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInfo: {fileID: 100418839}
-  healthSlider: {fileID: 347839576}
+  playerInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
   regeneration: 1
@@ -1104,8 +1104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc921d8fd2984a94991bf7d25ea66fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyInfo: {fileID: 56934468}
-  healthSlider: {fileID: 347839576}
+  enemyInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
 --- !u!1 &389799138
@@ -1388,90 +1388,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &610693923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 610693927}
-  - component: {fileID: 610693926}
-  - component: {fileID: 610693925}
-  - component: {fileID: 610693924}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &610693924
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 610693923}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &610693925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 610693923}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &610693926
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 610693923}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &610693927
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 610693923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 124.24, y: 11.72, z: 0}
-  m_LocalScale: {x: 1, y: 23.390102, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687619579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,7 +1498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4617141b1f65db49aaf671cb3cac7e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1046769602882164, guid: 5fb64d1136e51874f866e8cf293099ff, type: 2}
+  prefab: {fileID: 0}
 --- !u!1 &760044197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2666,7 +2582,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1069011436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 80.5, y: 0.4, z: 0}
+  m_LocalPosition: {x: 80.3, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1541531104}
@@ -3335,13 +3251,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: 0
-  playerPosition: {fileID: 100418839}
-  health: {fileID: 1390912609}
-  obj: {fileID: 1287156828}
-  pro: {fileID: 114536084246292814, guid: 3631b7e9134b88249a5030034bf470ef, type: 2}
-  player: {fileID: 100418842}
-  newSpeed: 10
-  hp: 10
+  playerPosition: {fileID: 0}
+  health: {fileID: 0}
+  obj: {fileID: 0}
+  pro: {fileID: 0}
+  player: {fileID: 0}
+  newSpeed: 2
+  hp: 3
 --- !u!54 &1287156830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3561,8 +3477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc921d8fd2984a94991bf7d25ea66fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyInfo: {fileID: 1287156829}
-  healthSlider: {fileID: 1390912610}
+  enemyInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
 --- !u!114 &1390912610
@@ -3645,8 +3561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1245a4a491c504abcf59ac98df3c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInfo: {fileID: 100418839}
-  healthSlider: {fileID: 1390912610}
+  playerInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
   regeneration: 1
@@ -4767,8 +4683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1245a4a491c504abcf59ac98df3c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInfo: {fileID: 100418839}
-  healthSlider: {fileID: 1625145460}
+  playerInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
   regeneration: 1
@@ -5049,8 +4965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc921d8fd2984a94991bf7d25ea66fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyInfo: {fileID: 277411804}
-  healthSlider: {fileID: 1834689818}
+  enemyInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
 --- !u!114 &1834689818
@@ -5133,8 +5049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1245a4a491c504abcf59ac98df3c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInfo: {fileID: 100418839}
-  healthSlider: {fileID: 1834689818}
+  playerInfo: {fileID: 0}
+  healthSlider: {fileID: 0}
   maxHP: 0
   curHP: 0
   regeneration: 1
@@ -5502,7 +5418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713969870325b2e4b9f5a961386077e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1625145461}
+  Player: {fileID: 0}
 --- !u!1 &2034807585
 GameObject:
   m_ObjectHideFlags: 0
