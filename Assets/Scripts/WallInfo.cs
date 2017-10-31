@@ -3,32 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WallInfo : MonoBehaviour {
-
-	Ray ray;
-	RaycastHit hit;
-	public GameObject prefab;
-	public int counter = 0;
-	// Use this for initialization
-	void OnDestroy(){
-		counter--;
-		print ("destroying");
+    public float duration;
+    public GameObject wall;
+    // Use this for initialization
+    public void makeWall(){
+        StartCoroutine(wallDuration());
 	}
 	void Start () {
-		
+        duration = 1.5f;
 	}
-	
+    private IEnumerator WaitforNext() //waits for the next stun
+    {
+        yield return new WaitForSeconds(1.0f);
+        //Debug.Log("WaitForNextStun Done");
+    }
+    private IEnumerator wallDuration()
+    {
+        yield return new WaitForSeconds(duration);
+        wall.SetActive(false);
+
+    }
 	// Update is called once per frame
 	void Update () {
-		ray=Camera.main.ScreenPointToRay(Input.mousePosition);
-
-		if(Physics.Raycast(ray,out hit)){
-			if(Input.GetKeyDown(KeyCode.Mouse0)){
-				print ("clicked");
-				//if (counter < 1) {
-					GameObject obj=Instantiate(prefab,new Vector3(hit.point.x,hit.point.y + 0.5f, 0), Quaternion.identity) as GameObject;
-					//counter++;
-				//}
+		
 			}
 		}
-	}
-}

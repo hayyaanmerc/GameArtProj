@@ -31,6 +31,7 @@ public class EnemyHealth : MonoBehaviour {
 			curHP = 0;
 			Destroy(enemyInfo.gameObject);
 
+
 		}
 	}
 	public void takeDamage(int attack){

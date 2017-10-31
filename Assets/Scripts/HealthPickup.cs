@@ -5,11 +5,11 @@ using UnityEngine;
 public class HealthPickup : MonoBehaviour {
 
 	public HealthHandler Player;
-	void OnCollisionEnter(Collision info){
-		if(info.collider.name.Equals("Player")){
-			print ("touchie");
-			Player.heal ();
-			Destroy (gameObject);
+	void OnTriggerEnter(Collider info){
+		if(info.name.Equals("Player")){
+			//print ("touchie");
+			Player.heal();
+			gameObject.SetActive(false);
 		}
 	}
 
