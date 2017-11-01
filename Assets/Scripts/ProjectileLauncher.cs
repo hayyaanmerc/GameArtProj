@@ -16,11 +16,14 @@ public class ProjectileLauncher : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			GameObject bul = Instantiate (projectile, transform.position + new Vector3(1,0,0), Quaternion.identity) as GameObject;
 			bul.transform.Translate (1, 0, 0);
 		}
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
         if (timeStamp <= Time.time)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -30,6 +33,9 @@ public class ProjectileLauncher : MonoBehaviour {
                 timeStamp = Time.time + coolDownTime;
             }
         }
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 		
 	}

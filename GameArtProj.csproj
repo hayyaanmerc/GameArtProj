@@ -222,6 +222,7 @@
     <Compile Include="Assets\cam_move.cs" />
     <Compile Include="Assets\credits.cs" />
     <Compile Include="Assets\current_skill.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\destroy_wall.cs" />
     <Compile Include="Assets\goToShop.cs" />
     <Compile Include="Assets\Main_Menu.cs" />
@@ -230,11 +231,20 @@
     <Compile Include="Assets\Scripts\AI.cs" />
     <Compile Include="Assets\Scripts\cam_move.cs" />
     <Compile Include="Assets\Scripts\CoinDespawn.cs" />
+=======
+    <Compile Include="Assets\Main_Menu.cs" />
+    <Compile Include="Assets\quit.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\cam_move.cs" />
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     <Compile Include="Assets\Scripts\CoinDrop.cs" />
     <Compile Include="Assets\Scripts\credits.cs" />
     <Compile Include="Assets\Scripts\current_skill.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\EnemyProjectile.cs" />
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     <Compile Include="Assets\Scripts\HealthHandler.cs" />
     <Compile Include="Assets\Scripts\HealthPickup.cs" />
     <Compile Include="Assets\Scripts\Main_Menu.cs" />
@@ -245,12 +255,18 @@
     <Compile Include="Assets\Scripts\quit.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\shop.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\skill_button.cs" />
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     <Compile Include="Assets\Scripts\skill_scene.cs" />
     <Compile Include="Assets\Scripts\start_button.cs" />
     <Compile Include="Assets\Scripts\Stun.cs" />
     <Compile Include="Assets\Scripts\StunInitiator.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\swordsman.cs" />
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     <Compile Include="Assets\Scripts\type.cs" />
     <Compile Include="Assets\Scripts\WallInfo.cs" />
     <Compile Include="Assets\Scripts\WallSpell.cs" />
@@ -261,7 +277,11 @@
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
     <Compile Include="Assets\start_button.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\switchtoShop.cs" />
+=======
+    <Compile Include="Assets\type.cs" />
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\hello.cs.txt" />

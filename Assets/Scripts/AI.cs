@@ -11,16 +11,22 @@ public class AI : MonoBehaviour {
 	private bool isStun;
     private Vector2 direction;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool isImmune;
 	//private bool isStun = false;
 
 	public float pos;
     //public CoinDrop coin;
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 	//private bool isStun = false;
 
 	public float pos;
     public CoinDrop coin;
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 	public Movement playerPosition;
 	public EnemyHealth health;
@@ -31,11 +37,17 @@ public class AI : MonoBehaviour {
 	public int newSpeed = speed; //created newspeed variable and update this instead of speed var which should stay constant.
 	public int hp = 3;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     private void OnDestroy()
     {
         coin.dropCoin(gameObject.transform.position);
     }
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     void OnCollisionEnter(Collision collisionInfo)
 	{
@@ -55,9 +67,14 @@ public class AI : MonoBehaviour {
         }
 		if(collisionInfo.gameObject.name.Equals("Projectile(Clone)")){
 <<<<<<< HEAD
+<<<<<<< HEAD
            
                 health.takeDamage(player.GetAttackPower());
                 print(hp);
+=======
+			health.takeDamage(player.GetAttackPower());
+			print(hp);
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 			health.takeDamage(player.GetAttackPower());
 			print(hp);
@@ -116,7 +133,10 @@ public class AI : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.R))
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             //if(isSwordsman)
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 

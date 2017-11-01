@@ -24,7 +24,10 @@ GameObject:
   - component: {fileID: 65986631527640112}
   - component: {fileID: 54813876055465464}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 114701385887790330}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
@@ -58,7 +61,11 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_UseGravity: 1
+=======
+  m_UseGravity: 0
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
   m_UseGravity: 0
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -74,7 +81,11 @@ BoxCollider:
   m_GameObject: {fileID: 1666215269482520}
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsTrigger: 0
+=======
+  m_IsTrigger: 1
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
   m_IsTrigger: 1
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -82,6 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.92, y: 4.35, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &114701385887790330
 MonoBehaviour:
@@ -96,6 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114947818348564824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,7 +117,11 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1666215269482520}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
   m_Enabled: 1
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -113,7 +131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coin: {fileID: 1666215269482520}
 <<<<<<< HEAD
+<<<<<<< HEAD
   despawnTime: 2.5
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!212 &212218499985268364

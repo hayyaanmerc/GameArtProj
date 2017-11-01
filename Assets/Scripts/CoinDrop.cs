@@ -6,6 +6,7 @@ public class CoinDrop : MonoBehaviour {
     PlayerInfo Player;
     public GameObject coin;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private GameObject drop;
     public float despawnTime =2.5f;
     private float timeStamp; 
@@ -19,6 +20,8 @@ public class CoinDrop : MonoBehaviour {
             Despawn();
             
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     void OnTriggerEnter(Collider info)
     {
         if (info.name.Equals("Player"))
@@ -27,11 +30,15 @@ public class CoinDrop : MonoBehaviour {
            // Player.heal();
            // gameObject.SetActive(false);
             Destroy(gameObject);
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
         }
     }
     public void dropCoin(Vector3 enemyPos)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         drop = Instantiate(gameObject, enemyPos + new Vector3(2,0, 0) , Quaternion.identity) as GameObject;
         timeStamp = Time.time + despawnTime;
@@ -46,10 +53,16 @@ public class CoinDrop : MonoBehaviour {
         //coin.SetActive(true);
     }
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
+        GameObject drop = Instantiate(coin, enemyPos + new Vector3(2,0, 0) , Quaternion.identity) as GameObject;
+        //coin.SetActive(true);
+    }
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     // Use this for initialization
     void Start () {
 		
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 	// Update is called once per frame
@@ -59,6 +72,8 @@ public class CoinDrop : MonoBehaviour {
             Despawn();
         }
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     ~CoinDrop()
     {
         Destroy(gameObject);
@@ -67,6 +82,9 @@ public class CoinDrop : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 	}
 }

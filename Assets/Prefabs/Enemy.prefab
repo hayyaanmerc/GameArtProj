@@ -10,11 +10,14 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootGameObject: {fileID: 1467936275705798}
   m_IsPrefabParent: 1
 --- !u!1 &1002351922684280
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_RootGameObject: {fileID: 1489629724127936}
   m_IsPrefabParent: 1
 --- !u!1 &1219548593284978
@@ -23,6 +26,9 @@ Prefab:
   m_IsPrefabParent: 1
 --- !u!1 &1002351922684280
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 1
@@ -31,11 +37,17 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224001419197738482}
   m_Layer: 5
   m_Name: Handle Slide Area
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224156589016549824}
@@ -44,6 +56,10 @@ GameObject:
   m_Layer: 5
   m_Name: Handle
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -52,16 +68,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!1 &1148701526603260
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_IsActive: 0
 --- !u!1 &1295017201640402
 =======
   m_IsActive: 1
 --- !u!1 &1148701526603260
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 1
@@ -70,13 +92,19 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224261013750158162}
   - component: {fileID: 222978466215340728}
   - component: {fileID: 114122456118298192}
   m_Layer: 5
   m_Name: Fill
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224861238456069656}
@@ -86,6 +114,10 @@ GameObject:
   m_Layer: 5
   m_Name: Slider
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -95,13 +127,19 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1467936275705798
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1306102944374174
 =======
 --- !u!1 &1467936275705798
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,8 +148,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224828425625984258}
   - component: {fileID: 223456244990385662}
   - component: {fileID: 114504529044986928}
@@ -119,6 +160,9 @@ GameObject:
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 4694072979645690}
@@ -129,28 +173,40 @@ GameObject:
   - component: {fileID: 114479496024607844}
   - component: {fileID: 114381222128474730}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 114886076078962856}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1652480506898588
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1389691555680858
 =======
 --- !u!1 &1652480506898588
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 1
@@ -159,14 +215,20 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224389857543857838}
   - component: {fileID: 114421702063887694}
   - component: {fileID: 114009785451825026}
   - component: {fileID: 114916844271244194}
   m_Layer: 5
   m_Name: Slider
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224651550755342594}
@@ -175,6 +237,10 @@ GameObject:
   m_Layer: 5
   m_Name: Fill
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -184,13 +250,19 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1713687654061298
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1448383371123370
 =======
 --- !u!1 &1713687654061298
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 1
@@ -199,11 +271,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 224518144586232588}
   m_Layer: 5
   m_Name: Handle Slide Area
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224574123717581566}
   - component: {fileID: 222286352468267242}
   - component: {fileID: 114545051765571958}
@@ -214,18 +289,27 @@ GameObject:
   m_Layer: 5
   m_Name: Handle Slide Area
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_IsActive: 1
 --- !u!1 &1489629724127936
 GameObject:
   m_ObjectHideFlags: 0
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_IsActive: 0
@@ -233,6 +317,10 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -241,8 +329,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 4655941097054688}
   - component: {fileID: 33828502248583236}
   - component: {fileID: 136126843731484772}
@@ -252,6 +343,9 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy
 =======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224686922252151560}
   - component: {fileID: 222841585160253984}
@@ -259,6 +353,10 @@ GameObject:
   m_Layer: 5
   m_Name: Background
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -268,11 +366,14 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1965475505814930
 GameObject:
   m_ObjectHideFlags: 0
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1491279336048336
 GameObject:
   m_ObjectHideFlags: 1
@@ -281,19 +382,28 @@ GameObject:
 GameObject:
   m_ObjectHideFlags: 0
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224294622957731934}
   - component: {fileID: 222553109146039130}
   - component: {fileID: 114891937351701568}
   m_Layer: 5
   m_Name: Handle
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224392156599454426}
@@ -303,6 +413,10 @@ GameObject:
   m_Layer: 5
   m_Name: Canvas
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -312,13 +426,19 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1991065351730794
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1497254028944490
 =======
 --- !u!1 &1991065351730794
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 GameObject:
   m_ObjectHideFlags: 1
@@ -327,13 +447,19 @@ GameObject:
   serializedVersion: 5
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 224019113549868124}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - component: {fileID: 224432145798809442}
 =======
   - component: {fileID: 224019113549868124}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 5
   m_Name: Fill Area
@@ -343,21 +469,30 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &4694072979645690
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!4 &4655941097054688
 =======
 --- !u!4 &4694072979645690
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -50.739998, y: -12.749999, z: 0}
@@ -368,6 +503,9 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23739757617066664
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1467936275705798}
@@ -381,6 +519,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23918795927084098
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -389,13 +531,19 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1467936275705798}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
 =======
   m_GameObject: {fileID: 1467936275705798}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Enabled: 1
   m_CastShadows: 1
@@ -426,24 +574,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!33 &33955896363307490
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!33 &33828502248583236
 =======
 --- !u!33 &33955896363307490
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1467936275705798}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54499945190664832
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54382288188520980
@@ -452,19 +609,28 @@ MeshFilter:
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54499945190664832
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1467936275705798}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
 =======
   m_GameObject: {fileID: 1467936275705798}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   serializedVersion: 2
   m_Mass: 1
@@ -475,17 +641,23 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 120
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 120
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_CollisionDetection: 0
 --- !u!114 &114009785451825026
 =======
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 120
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_CollisionDetection: 1
 --- !u!114 &114116249165516582
@@ -517,6 +689,10 @@ MonoBehaviour:
   m_FillOrigin: 0
 --- !u!114 &114165782479605194
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -525,8 +701,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+  m_GameObject: {fileID: 1389691555680858}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
   m_GameObject: {fileID: 1389691555680858}
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -548,6 +729,10 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1148701526603260}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -581,16 +766,22 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetGraphic: {fileID: 114617982449502998}
   m_FillRect: {fileID: 224651550755342594}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_TargetGraphic: {fileID: 114891937351701568}
   m_FillRect: {fileID: 224261013750158162}
 =======
   m_TargetGraphic: {fileID: 114617982449502998}
   m_FillRect: {fileID: 224651550755342594}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_HandleRect: {fileID: 0}
   m_Direction: 0
@@ -604,26 +795,38 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &114277226039615790
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114122456118298192
 =======
 --- !u!114 &114277226039615790
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1747519554486804}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1295017201640402}
 =======
   m_GameObject: {fileID: 1747519554486804}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -632,13 +835,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Color: {r: 1, g: 0, b: 0, a: 1}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Color: {r: 0.11724138, g: 1, b: 0, a: 1}
 =======
   m_Color: {r: 1, g: 0, b: 0, a: 1}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -647,13 +856,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
 =======
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Type: 1
   m_PreserveAspect: 0
@@ -663,21 +878,30 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &114381222128474730
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114421702063887694
 =======
 --- !u!114 &114381222128474730
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1389691555680858}
   m_Enabled: 0
   m_EditorHideFlags: 0
@@ -712,6 +936,9 @@ MonoBehaviour:
   m_DynamicPixelsPerUnit: 1
 --- !u!114 &114545051765571958
 =======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1467936275705798}
   m_Enabled: 1
@@ -723,6 +950,10 @@ MonoBehaviour:
   enemyDmg: {fileID: 114433723411527872}
 --- !u!114 &114433723411527872
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -731,8 +962,11 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1448383371123370}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -773,6 +1007,9 @@ MonoBehaviour:
     m_Bits: 4294967295
 --- !u!114 &114748462723456440
 =======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1148701526603260}
   m_Enabled: 1
@@ -785,8 +1022,13 @@ MonoBehaviour:
   maxHP: 0
   curHP: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   coin: {fileID: 0}
 --- !u!114 &114479496024607844
+=======
+--- !u!114 &114479496024607844
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 --- !u!114 &114479496024607844
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
@@ -796,13 +1038,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1467936275705798}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
 =======
   m_GameObject: {fileID: 1467936275705798}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -812,11 +1060,14 @@ MonoBehaviour:
   pos: 0
 <<<<<<< HEAD
   playerPosition: {fileID: 0}
+<<<<<<< HEAD
   health: {fileID: 114433723411527872}
   obj: {fileID: 1467936275705798}
 =======
 <<<<<<< HEAD
   playerPosition: {fileID: 0}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   health: {fileID: 114916844271244194}
   obj: {fileID: 1489629724127936}
 =======
@@ -825,27 +1076,41 @@ MonoBehaviour:
   health: {fileID: 114433723411527872}
   obj: {fileID: 1467936275705798}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   pro: {fileID: 114536084246292814, guid: 3631b7e9134b88249a5030034bf470ef, type: 2}
   player: {fileID: 0}
   newSpeed: 2
   hp: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &114585807766096044
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114891937351701568
 =======
 --- !u!114 &114585807766096044
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+  m_GameObject: {fileID: 1491279336048336}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
   m_GameObject: {fileID: 1491279336048336}
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -867,6 +1132,10 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1002351922684280}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -892,8 +1161,11 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114916844271244194
 =======
 --- !u!114 &114886076078962856
@@ -922,6 +1194,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1666215269482520, guid: 82d5eed2d2875354096debdb3ff42e09, type: 2}
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &114919162201764154
 MonoBehaviour:
@@ -946,6 +1221,10 @@ MonoBehaviour:
   m_DynamicPixelsPerUnit: 1
 --- !u!136 &136249892214099060
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -954,13 +1233,19 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1467936275705798}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1489629724127936}
 =======
   m_GameObject: {fileID: 1467936275705798}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -970,74 +1255,104 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &222293089367049468
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!222 &222286352468267242
 =======
 --- !u!222 &222293089367049468
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1652480506898588}
 --- !u!222 &222454159779917812
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1448383371123370}
 --- !u!222 &222553109146039130
 =======
   m_GameObject: {fileID: 1652480506898588}
 --- !u!222 &222454159779917812
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1002351922684280}
 --- !u!222 &222841585160253984
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1491279336048336}
 --- !u!222 &222978466215340728
 =======
   m_GameObject: {fileID: 1002351922684280}
 --- !u!222 &222841585160253984
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1747519554486804}
 --- !u!223 &223458595097751772
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1295017201640402}
 --- !u!223 &223456244990385662
 =======
   m_GameObject: {fileID: 1747519554486804}
 --- !u!223 &223458595097751772
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 Canvas:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1965475505814930}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1306102944374174}
 =======
   m_GameObject: {fileID: 1965475505814930}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Enabled: 1
   serializedVersion: 3
@@ -1054,34 +1369,49 @@ Canvas:
   m_SortingOrder: 1
   m_TargetDisplay: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &224019113549868124
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!224 &224001419197738482
 =======
 --- !u!224 &224019113549868124
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1991065351730794}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1219548593284978}
 =======
   m_GameObject: {fileID: 1991065351730794}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - {fileID: 224294622957731934}
   m_Father: {fileID: 224389857543857838}
   m_RootOrder: 2
@@ -1092,6 +1422,9 @@ RectTransform:
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224261013750158162
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   - {fileID: 224651550755342594}
@@ -1105,6 +1438,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224156589016549824
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -1113,8 +1450,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1295017201640402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -125, y: -17.5, z: 0}
@@ -1129,6 +1469,9 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224294622957731934
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1002351922684280}
@@ -1146,6 +1489,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224392156599454426
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -1154,8 +1501,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1491279336048336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -115, y: 0, z: 0}
@@ -1170,6 +1520,9 @@ RectTransform:
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224389857543857838
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1965475505814930}
@@ -1188,6 +1541,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224518144586232588
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -1196,8 +1553,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1389691555680858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -238, y: 210, z: 0}
@@ -1216,6 +1576,9 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224432145798809442
 =======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1713687654061298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1233,6 +1596,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224651550755342594
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -1241,8 +1608,11 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1497254028944490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1258,6 +1628,9 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224574123717581566
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1652480506898588}
@@ -1275,6 +1648,10 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224686922252151560
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
@@ -1283,26 +1660,38 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1747519554486804}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1448383371123370}
 =======
   m_GameObject: {fileID: 1747519554486804}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 224861238456069656}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Father: {fileID: 224389857543857838}
 =======
   m_Father: {fileID: 224861238456069656}
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1312,21 +1701,30 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &224861238456069656
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!224 &224828425625984258
 =======
 --- !u!224 &224861238456069656
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1306102944374174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.9899902, y: 0.25, z: 0}
@@ -1340,6 +1738,9 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.99, y: 0.25}
   m_SizeDelta: {x: 869, y: 470}
+=======
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_GameObject: {fileID: 1148701526603260}
@@ -1358,6 +1759,10 @@ RectTransform:
   m_AnchoredPosition: {x: -238, y: 210}
   m_SizeDelta: {x: 250, y: 70}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 =======
 >>>>>>> ca2fe025dc604864f465194506e1d380ab8d69a6
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9

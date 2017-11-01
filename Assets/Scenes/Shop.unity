@@ -334,10 +334,13 @@ GameObject:
   - component: {fileID: 221535942}
   - component: {fileID: 221535941}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 221535946}
   - component: {fileID: 221535945}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
 =======
   - component: {fileID: 221535945}
@@ -346,6 +349,9 @@ GameObject:
   - component: {fileID: 221535945}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
   - component: {fileID: 221535946}
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Main Camera
@@ -417,12 +423,18 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &221535945
 MonoBehaviour:
@@ -433,10 +445,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 6135e86a861822f449ec9541c61f6b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -444,6 +459,9 @@ MonoBehaviour:
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
 =======
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &221535946
 MonoBehaviour:
@@ -454,9 +472,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
 =======
@@ -465,6 +486,9 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 11500000, guid: 5d00d4dd8bcf9104c89910fa9690eae2, type: 3}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1499,8 +1523,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
 =======
   skill_Num: 2
@@ -1510,6 +1537,9 @@ MonoBehaviour:
   skill_Num: 2
   Dis_val: {fileID: 734730280}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &734730280
 MonoBehaviour:
@@ -1657,9 +1687,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - m_Target: {fileID: 221535945}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
       - m_Target: {fileID: 0}
 =======
@@ -1668,6 +1701,9 @@ MonoBehaviour:
 =======
       - m_Target: {fileID: 221535946}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
         m_MethodName: skill_Open
         m_Mode: 1
@@ -2316,9 +2352,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
 =======
@@ -2327,6 +2366,9 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2370,9 +2412,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - m_Target: {fileID: 221535946}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
       - m_Target: {fileID: 221535946}
 =======
@@ -2381,6 +2426,9 @@ MonoBehaviour:
 =======
       - m_Target: {fileID: 221535945}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
         m_MethodName: Menu_Open
         m_Mode: 1
@@ -3058,9 +3106,12 @@ RectTransform:
   m_GameObject: {fileID: 2017329540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 322.5, y: 158, z: 0}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 <<<<<<< HEAD
   m_LocalPosition: {x: 322, y: 155.5, z: 0}
 =======
@@ -3069,6 +3120,9 @@ RectTransform:
 =======
   m_LocalPosition: {x: 295, y: 154.5, z: 0}
 >>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
+=======
 >>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
