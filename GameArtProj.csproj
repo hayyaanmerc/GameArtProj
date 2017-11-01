@@ -219,7 +219,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\cam_move.cs" />
+    <Compile Include="Assets\credits.cs" />
+    <Compile Include="Assets\current_skill.cs" />
+    <Compile Include="Assets\destroy_wall.cs" />
     <Compile Include="Assets\goToShop.cs" />
+    <Compile Include="Assets\Main_Menu.cs" />
+    <Compile Include="Assets\New folder\type.cs" />
+    <Compile Include="Assets\quit.cs" />
     <Compile Include="Assets\Scripts\AI.cs" />
     <Compile Include="Assets\Scripts\cam_move.cs" />
     <Compile Include="Assets\Scripts\CoinDespawn.cs" />
@@ -248,9 +255,12 @@
     <Compile Include="Assets\Scripts\WallInfo.cs" />
     <Compile Include="Assets\Scripts\WallSpell.cs" />
     <Compile Include="Assets\Scripts\weapon.cs" />
+    <Compile Include="Assets\shop.cs" />
+    <Compile Include="Assets\skill_scene.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
+    <Compile Include="Assets\start_button.cs" />
     <Compile Include="Assets\switchtoShop.cs" />
   </ItemGroup>
   <ItemGroup>

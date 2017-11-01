@@ -112,6 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &199413711
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,6 +187,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 199413711}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &328173593
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,19 +233,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 328173593}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5dcb466ed50ae6046872f7703c7a482c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skill_Num: 0
+=======
+  m_Script: {fileID: 11500000, guid: 63cbf20347ae8f74c827751fc743eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_Num: 2
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   str: 0
   dex: 0
   spell: 0
   fort: 0
+<<<<<<< HEAD
   Dis_val: {fileID: 0}
   strT: {fileID: 0}
   dexT: {fileID: 0}
   spellT: {fileID: 0}
   fortT: {fileID: 0}
+=======
+  Dis_val: {fileID: 328173596}
+  strT: {fileID: 1628994935}
+  dexT: {fileID: 2051730594}
+  spellT: {fileID: 328173596}
+  fortT: {fileID: 758562300}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &328173596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,7 +325,11 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 414341992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 322.5, y: 158, z: 10}
+=======
+  m_LocalPosition: {x: 295, y: 154.5, z: 10}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 957568094}
@@ -316,7 +338,10 @@ RectTransform:
   - {fileID: 1041016148}
   - {fileID: 2035928788}
   - {fileID: 1106495260}
+<<<<<<< HEAD
   - {fileID: 1268658466}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Father: {fileID: 893491043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -501,19 +526,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 758562297}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5dcb466ed50ae6046872f7703c7a482c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skill_Num: 0
+=======
+  m_Script: {fileID: 11500000, guid: 63cbf20347ae8f74c827751fc743eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_Num: 2
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   str: 0
   dex: 0
   spell: 0
   fort: 0
+<<<<<<< HEAD
   Dis_val: {fileID: 0}
   strT: {fileID: 0}
   dexT: {fileID: 0}
   spellT: {fileID: 0}
   fortT: {fileID: 0}
+=======
+  Dis_val: {fileID: 758562300}
+  strT: {fileID: 0}
+  dexT: {fileID: 0}
+  spellT: {fileID: 0}
+  fortT: {fileID: 758562300}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &758562300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,7 +604,10 @@ GameObject:
   - component: {fileID: 893491042}
   - component: {fileID: 893491041}
   - component: {fileID: 893491040}
+<<<<<<< HEAD
   - component: {fileID: 893491044}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -635,6 +678,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &893491044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,6 +690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce6efe09dabf2e4b925c28bb69004b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &921413234
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,19 +718,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 921413234}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5dcb466ed50ae6046872f7703c7a482c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skill_Num: 0
+=======
+  m_Script: {fileID: 11500000, guid: 63cbf20347ae8f74c827751fc743eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_Num: 2
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   str: 0
   dex: 0
   spell: 0
   fort: 0
   Dis_val: {fileID: 921413236}
+<<<<<<< HEAD
   strT: {fileID: 1628994935}
   dexT: {fileID: 2051730594}
   spellT: {fileID: 328173596}
   fortT: {fileID: 758562300}
+=======
+  strT: {fileID: 0}
+  dexT: {fileID: 0}
+  spellT: {fileID: 0}
+  fortT: {fileID: 0}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &921413236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +1026,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1106495259}
+<<<<<<< HEAD
 --- !u!1 &1268658465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1149,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268658465}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1628994932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,19 +1195,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 1628994932}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5dcb466ed50ae6046872f7703c7a482c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skill_Num: 0
+=======
+  m_Script: {fileID: 11500000, guid: 63cbf20347ae8f74c827751fc743eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_Num: 2
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   str: 0
   dex: 0
   spell: 0
   fort: 0
+<<<<<<< HEAD
   Dis_val: {fileID: 0}
   strT: {fileID: 0}
   dexT: {fileID: 0}
   spellT: {fileID: 0}
   fortT: {fileID: 0}
+=======
+  Dis_val: {fileID: 1628994935}
+  strT: {fileID: 1628994935}
+  dexT: {fileID: 2051730594}
+  spellT: {fileID: 328173596}
+  fortT: {fileID: 758562300}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &1628994935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,15 +1443,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 2051730591}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5dcb466ed50ae6046872f7703c7a482c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skill_Num: 0
+=======
+  m_Script: {fileID: 11500000, guid: 63cbf20347ae8f74c827751fc743eced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_Num: 2
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   str: 0
   dex: 0
   spell: 0
   fort: 0
+<<<<<<< HEAD
   Dis_val: {fileID: 0}
+=======
+  Dis_val: {fileID: 2051730594}
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   strT: {fileID: 0}
   dexT: {fileID: 0}
   spellT: {fileID: 0}

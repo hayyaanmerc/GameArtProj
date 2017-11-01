@@ -10,11 +10,18 @@ public class AI : MonoBehaviour {
 	private bool dirRight;
 	private bool isStun;
     private Vector2 direction;
+<<<<<<< HEAD
     public bool isImmune;
 	//private bool isStun = false;
 
 	public float pos;
     //public CoinDrop coin;
+=======
+	//private bool isStun = false;
+
+	public float pos;
+    public CoinDrop coin;
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 	public Movement playerPosition;
 	public EnemyHealth health;
 	public GameObject obj;
@@ -23,6 +30,13 @@ public class AI : MonoBehaviour {
 	public const int speed = 2; //changed speed to constant 
 	public int newSpeed = speed; //created newspeed variable and update this instead of speed var which should stay constant.
 	public int hp = 3;
+<<<<<<< HEAD
+=======
+    private void OnDestroy()
+    {
+        coin.dropCoin(gameObject.transform.position);
+    }
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
     void OnCollisionEnter(Collision collisionInfo)
 	{
        
@@ -40,9 +54,14 @@ public class AI : MonoBehaviour {
             changeDirection();
         }
 		if(collisionInfo.gameObject.name.Equals("Projectile(Clone)")){
+<<<<<<< HEAD
            
                 health.takeDamage(player.GetAttackPower());
                 print(hp);
+=======
+			health.takeDamage(player.GetAttackPower());
+			print(hp);
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 		}
 		/*print("Detected collision between " + gameObject.name + " and " + collisionInfo.collider.name);
 		print("There are " + collisionInfo.contacts.Length + " point(s) of contacts");
@@ -96,7 +115,10 @@ public class AI : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.R))
         {
+<<<<<<< HEAD
             //if(isSwordsman)
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 
             if (Inrange(4))
             {

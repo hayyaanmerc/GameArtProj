@@ -319,7 +319,17 @@ GameObject:
   - component: {fileID: 366309240}
   - component: {fileID: 366309239}
   - component: {fileID: 366309238}
+<<<<<<< HEAD
   - component: {fileID: 366309241}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - component: {fileID: 366309241}
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -431,6 +441,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 366309236}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &366309241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +457,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &548729556
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +549,17 @@ GameObject:
   - component: {fileID: 874353332}
   - component: {fileID: 874353331}
   - component: {fileID: 874353330}
+<<<<<<< HEAD
   - component: {fileID: 874353333}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - component: {fileID: 874353333}
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -639,6 +671,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 874353328}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!114 &874353333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,6 +687,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce6efe09dabf2e4b925c28bb69004b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
 --- !u!1 &1166166904
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,9 +705,24 @@ GameObject:
   - component: {fileID: 1166166907}
   - component: {fileID: 1166166906}
   - component: {fileID: 1166166905}
+<<<<<<< HEAD
   - component: {fileID: 1166166910}
   - component: {fileID: 1166166909}
   - component: {fileID: 1166166911}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - component: {fileID: 1166166910}
+  - component: {fileID: 1166166909}
+=======
+  - component: {fileID: 1166166909}
+  - component: {fileID: 1166166910}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  - component: {fileID: 1166166909}
+  - component: {fileID: 1166166910}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -742,7 +801,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1166166904}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 3ce6efe09dabf2e4b925c28bb69004b6, type: 3}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 3ce6efe09dabf2e4b925c28bb69004b6, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: a518dcd70b04a6f45bdf2a09bedbdcb2, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  m_Script: {fileID: 11500000, guid: a518dcd70b04a6f45bdf2a09bedbdcb2, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1166166910
@@ -753,6 +824,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1166166904}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -765,6 +837,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c870dead877debd4e9ed0209ac4aac7c, type: 3}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: d54a6a64a2655a74fbb5485c0a663b5d, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  m_Script: {fileID: 11500000, guid: f120a37ba9b91cb4181c549fafda632e, type: 3}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1183185988
@@ -792,7 +875,19 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183185988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 322.5, y: 157.5, z: 10}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LocalPosition: {x: 322, y: 155.5, z: 10}
+=======
+  m_LocalPosition: {x: 295, y: 154.5, z: 10}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+=======
+  m_LocalPosition: {x: 295, y: 154.5, z: 10}
+>>>>>>> 5d4be87272990bf91954c7e957efd6e6ea7a68f6
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2028235873}
@@ -1085,7 +1180,10 @@ GameObject:
   - component: {fileID: 2028235876}
   - component: {fileID: 2028235875}
   - component: {fileID: 2028235874}
+<<<<<<< HEAD
   - component: {fileID: 2028235877}
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
   m_Layer: 0
   m_Name: Swordsman
   m_TagString: Untagged
@@ -1151,8 +1249,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
       - m_Target: {fileID: 1166166911}
         m_MethodName: OnMouseUpAsButton
+=======
+      - m_Target: {fileID: 1166166909}
+        m_MethodName: ModeSelect
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1197,6 +1300,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2028235872}
+<<<<<<< HEAD
 --- !u!114 &2028235877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1208,3 +1312,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c870dead877debd4e9ed0209ac4aac7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> 5ba1cc97ea913a23b327e5575430f13d7a4217d9
