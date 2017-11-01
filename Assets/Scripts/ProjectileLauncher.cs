@@ -13,7 +13,7 @@ public class ProjectileLauncher : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.LeftShift)) {
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			GameObject bul = Instantiate (projectile, transform.position + new Vector3(1,0,0), Quaternion.identity) as GameObject;
 			bul.transform.Translate (1, 0, 0);
 		}

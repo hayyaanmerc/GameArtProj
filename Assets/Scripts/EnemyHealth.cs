@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour {
 	public Slider healthSlider;
 	public int maxHP;
 	public int curHP;
+    public CoinDrop coin;
 	private int damageMultiplier =1; //int to multiply damage
 	// Use this for initialization
 	void Start () {
@@ -29,7 +30,9 @@ public class EnemyHealth : MonoBehaviour {
 		if (curHP <= 0)
 		{
 			curHP = 0;
-			Destroy(enemyInfo.gameObject);
+            coin.dropCoin(enemyInfo.gameObject.transform.position);
+            Destroy(enemyInfo.gameObject);
+
 
 		}
 	}
